@@ -2,6 +2,10 @@
 const path = require('path')
 
 module.exports = {
+  siteMetadata: {
+    title: 'Full-Stack Bootcamp!',
+    author: 'Marcel Cruz',
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-root-import',

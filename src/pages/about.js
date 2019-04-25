@@ -1,13 +1,12 @@
 import React from 'react'
-import Footer from 'components/footer'
+import Layout from 'components/layout'
 
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>About</h1>
       <p>This is about me.</p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

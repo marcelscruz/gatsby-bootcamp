@@ -1,4 +1,5 @@
-import React from "react"
+import React from 'react'
+import Footer from 'components/footer'
 
 const ContactPage = () => {
   return (
@@ -8,6 +9,7 @@ const ContactPage = () => {
         You can reach me on <a href="https://twitter.com/marcelcruz">Twitter</a>
         .
       </p>
+      <Footer />
     </div>
   )
 }

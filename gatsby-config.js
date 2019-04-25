@@ -8,7 +8,9 @@ module.exports = {
       options: {
         src: path.join(__dirname, 'src'),
         components: path.join(__dirname, 'src/components'),
+        styles: path.join(__dirname, 'src/styles'),
       },
     },
+    'gatsby-plugin-sass',
   ],
 }

@@ -7,6 +7,7 @@ module.exports = {
     author: 'Marcel Cruz',
   },
   plugins: [
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
@@ -15,6 +16,12 @@ module.exports = {
         styles: path.join(__dirname, 'src/styles'),
       },
     },
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`,
+      },
+    },
   ],
 }

@@ -30,7 +30,7 @@
   "devDependencies": {
     "env-cmd": "^8.0.2",
     "gatsby-plugin-root-import": "^2.0.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.17.0"
   },
   "repository": {
